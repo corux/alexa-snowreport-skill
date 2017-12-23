@@ -47,6 +47,8 @@ export default class Bergfex {
       const url = `https://www.bergfex.de/${country}/schneewerte/`;
       try {
         const body = await request(url);
+        console.log(`Request: ${url}`);
+
         const $ = cheerio.load(body);
         items = items.concat($('.content table').find('.tr0,.tr1').get()
           .map((elem) => {
@@ -99,6 +101,8 @@ export default class Bergfex {
     const url = `https://www.bergfex.de/${skiRegion}/schneebericht/`;
     try {
       const body = await request(url);
+      console.log(`Request: ${url}`);
+
       const $ = cheerio.load(body);
       const items = $('.content dl dt,dd').get();
 
@@ -109,12 +113,8 @@ export default class Bergfex {
           if (ddIndex && ddIndex < items.length) {
             return postProcFn($(items[ddIndex]));
           }
-
-          // key not found
-          return;
         } catch (e) {
           // invalid value or unable to parse -> treat as non-existent
-          return;
         }
       }
 
@@ -130,9 +130,7 @@ export default class Bergfex {
       const fnName = () => {
         try {
           return $($('h1.has-sup').contents().get().filter(n => n.nodeType === 3)[0]).text().trim();
-        } catch (e) {
-          return;
-        }
+        } catch (e) {}
       };
 
       return {
