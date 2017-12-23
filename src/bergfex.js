@@ -120,10 +120,9 @@ export default class Bergfex {
 
       const fnText = elem => {
         const text = $(elem).text();
-        if (text.toUpperCase().indexOf('Keine Meldung'.toUpperCase()) !== -1) {
-          return;
+        if (text.toUpperCase().indexOf('Keine Meldung'.toUpperCase()) === -1) {
+          return text.trim();
         }
-        return text.trim();
       };
       const fnCm = elem => elem.text().match(/([0-9]+)/)[1].trim();
       const fnCmNew = elem => elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim();
@@ -131,6 +130,26 @@ export default class Bergfex {
         try {
           return $($('h1.has-sup').contents().get().filter(n => n.nodeType === 3)[0]).text().trim();
         } catch (e) {}
+      };
+      const fnDateTime = elem => {
+        const text = fnText(elem);
+        if (text) {
+          const match = text.match(/(^[^,]*)[^\d]*(\d{1,2})\.(\d{1,2})\.,\s*(\d{1,2}):(\d{1,2})/);
+          if (match) {
+            const weekdays = {
+              'Mo': 'Montag',
+              'Di': 'Dienstag',
+              'Mi': 'Mittwoch',
+              'Do': 'Donnerstag',
+              'Fr': 'Freitag',
+              'Sa': 'Samstag',
+              'So': 'Sonntag'
+            };
+            return `${weekdays[match[1]] || match[1]} <say-as interpret-as="date">????${match[3]}${match[2]}</say-as> ${match[4]}:${match[5]}`;
+          }
+        }
+
+        return text;
       };
 
       return {
@@ -142,9 +161,9 @@ export default class Bergfex {
         upper: extractData('Berg', fnCm),
         upperNew: extractData('Berg', fnCmNew),
         condition: extractData('Schneezustand', fnText),
-        lastSnow: extractData('Letzter Schneefall', fnText),
+        lastSnow: extractData('Letzter Schneefall', fnDateTime),
         avalanche: extractData('Lawinenwarnstufe', n => fnText(n).split('\n')[0].trim()),
-        time: extractData('Schneebericht', fnText)
+        time: extractData('Schneebericht', fnDateTime)
       };
     } catch (e) {
       console.error(e);

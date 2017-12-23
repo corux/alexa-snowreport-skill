@@ -1,5 +1,6 @@
 import { Skill, Launch, Intent, SessionEnded } from 'alexa-annotations';
 import { ask, say } from 'alexa-response';
+import ssml from 'alexa-ssml-jsx';
 import Bergfex from './bergfex';
 
 @Skill
@@ -75,7 +76,7 @@ export default class AlexaSnowReportSkill {
     const report = await bergfex.getSnowReport(slotValue.id);
 
     const reportText = this._transformReport(report) || `Der Schneebericht für ${slotValue.name} ist aktuell nicht verfügbar.`;
-    return say(reportText);
+    return say(`<speak>${reportText}</speak>`, 'SSML');
   }
 
   @Intent('AMAZON.HelpIntent')
