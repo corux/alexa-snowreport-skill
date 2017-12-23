@@ -103,34 +103,34 @@ export default class Bergfex {
       const items = $('.content dl dt,dd').get();
 
       function extractData(key, postProcFn) {
-        const dtIndex = items.findIndex(elem => $(elem).text().toUpperCase().contains(key.toUpperCase()));
-        const ddIndex = dtIndex + 1;
-        if (ddIndex && ddIndex < items.length) {
-          try {
-            return postProcFn($(arr[ddIndex]));
-          } catch (e) {
-            // invalid value or unable to parse -> treat as non-existent
-            return;
+        try {
+          const dtIndex = items.findIndex(elem => $(elem).text().trim().toUpperCase().indexOf(key.toUpperCase()) !== -1);
+          const ddIndex = dtIndex + 1;
+          if (ddIndex && ddIndex < items.length) {
+            return postProcFn($(items[ddIndex]));
           }
-        }
 
-        // key not found
-        return;
+          // key not found
+          return;
+        } catch (e) {
+          // invalid value or unable to parse -> treat as non-existent
+          return;
+        }
       }
 
       const fnText = elem => {
-        const text = elem.text();
-        if (text.toUpperCase().contains('Keine Meldung'.toUpperCase())) {
+        const text = $(elem).text();
+        if (text.toUpperCase().indexOf('Keine Meldung'.toUpperCase()) !== -1) {
           return;
         }
-        return text;
+        return text.trim();
       };
-      const fnCm = elem => elem.text().match(/([0-9]+)/)[1];
-      const fnCmNew = elem => elem.text().match(/neu[^0-9]*([0-9]+)/)[1];
+      const fnCm = elem => elem.text().match(/([0-9]+)/)[1].trim();
+      const fnCmNew = elem => elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim();
       const fnName = () => {
         try {
           return $($('h1.has-sup').contents().get().filter(n => n.nodeType === 3)[0]).text().trim();
-        } catch(e) {
+        } catch (e) {
           return;
         }
       };
@@ -145,7 +145,7 @@ export default class Bergfex {
         upperNew: extractData('Berg', fnCmNew),
         condition: extractData('Schneezustand', fnText),
         lastSnow: extractData('Letzter Schneefall', fnText),
-        avalanche: extractData('Lawinenwarnstufe', fnText),
+        avalanche: extractData('Lawinenwarnstufe', n => fnText(n).split('\n')[0].trim()),
         time: extractData('Schneebericht', fnText)
       };
     } catch (e) {
