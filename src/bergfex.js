@@ -96,7 +96,7 @@ export default class Bergfex {
    * Gets the snow report for the given skiing region.
    */
   async getSnowReport(skiRegion) {
-    const url = `https://www.bergfex.de/${skiRegion}/schneewerte/`;
+    const url = `https://www.bergfex.de/${skiRegion}/schneebericht/`;
     try {
       const body = await request(url);
       const $ = cheerio.load(body);

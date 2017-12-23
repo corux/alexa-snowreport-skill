@@ -73,7 +73,7 @@ export default class AlexaSnowReportSkill {
     const bergfex = new Bergfex();
     const report = bergfex.getSnowReport(slotValue.id);
 
-    const reportText = this._transformReport(report) || `Der Schneebericht für ${region} ist aktuell nicht verfügbar.`;
+    const reportText = this._transformReport(report) || `Der Schneebericht für ${slotValue.name} ist aktuell nicht verfügbar.`;
     return say(reportText);
   }
 
