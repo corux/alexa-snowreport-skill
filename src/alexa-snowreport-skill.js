@@ -47,10 +47,10 @@ export default class AlexaSnowReportSkill {
       texts.push(`Und es gibt ${report.upperNew} cm Neuschnee.`);
     }
     if (report.condition) {
-      texts.push(`Der Schneezustand ist mit "${report.condition}" angegeben.`);
+      texts.push(`Der Schneezustand ist mit '${report.condition}' angegeben.`);
     }
     if (report.avalanche) {
-      texts.push(`Die aktuelle Lawinenwarnstufe ist "${report.avalanche}".`);
+      texts.push(`Die aktuelle Lawinenwarnstufe ist '${report.avalanche}'.`);
     }
 
     return texts.join(' ');
@@ -58,12 +58,12 @@ export default class AlexaSnowReportSkill {
 
   @Launch
   launch() {
-    return ask(`Zu welchem Skigebiet möchtest du den Schneebericht abrufen?`)
+    return ask('Zu welchem Skigebiet möchtest du den Schneebericht abrufen?')
       .reprompt(this._getReprompt());
   }
 
   @Intent('RegionIntent')
-  when({ region }, { session, request }) {
+  when({ region }, { request }) {
     const slotValue = this._getSlotValue(request, 'region');
     if (!slotValue || !slotValue.id) {
       return ask(`Das Skigebiet ${region} ist nicht in meiner Datenbank. Bitte nenne ein anderes Gebiet.`)
@@ -79,7 +79,7 @@ export default class AlexaSnowReportSkill {
 
   @Intent('AMAZON.HelpIntent')
   help() {
-    return ask(`Dieser Skill erlaubt dir, den aktuellen Schneebericht zu den Skigebieten in den Alpen abzurufen. Nenne ein Skigebiet um den Schneebericht zu erhalten.`)
+    return ask('Dieser Skill erlaubt dir, den aktuellen Schneebericht zu den Skigebieten in den Alpen abzurufen. Nenne ein Skigebiet um den Schneebericht zu erhalten.')
       .reprompt(this._getReprompt());
   }
 

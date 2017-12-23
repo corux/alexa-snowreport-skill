@@ -10,20 +10,20 @@ export default class Bergfex {
   getCountries() {
     return [
       {
-        name: "Österreich",
-        code: "oesterreich"
+        name: 'Österreich',
+        code: 'oesterreich'
       },
       {
-        name: "Deutschland",
-        code: "deutschland"
+        name: 'Deutschland',
+        code: 'deutschland'
       },
       {
-        name: "Schweiz",
-        code: "schweiz"
+        name: 'Schweiz',
+        code: 'schweiz'
       },
       {
-        name: "Italien",
-        code: "italien"
+        name: 'Italien',
+        code: 'italien'
       }
     ];
   }
@@ -147,7 +147,7 @@ export default class Bergfex {
         lastSnow: extractData('Letzter Schneefall', fnText),
         avalanche: extractData('Lawinenwarnstufe', fnText),
         time: extractData('Schneebericht', fnText)
-      }
+      };
     } catch (e) {
       console.error(e);
       return {};
