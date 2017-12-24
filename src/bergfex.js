@@ -119,9 +119,10 @@ export default class Bergfex {
       }
 
       const fnText = elem => {
-        const text = $(elem).text();
-        if (text.toUpperCase().indexOf('Keine Meldung'.toUpperCase()) === -1) {
-          return text.trim();
+        const text = $(elem).text().trim();
+        if (text.toUpperCase().indexOf('Keine Meldung'.toUpperCase()) === -1
+          && text !== '-') {
+          return text;
         }
       };
       const fnTextFirstLine = elem => fnText(elem).split('\n')[0].trim();
