@@ -13,14 +13,10 @@ export default class AlexaSnowReportSkill {
   _getSlotValue(request, name) {
     try {
       const slot = request.intent.slots[name];
-      if (slot.resolutions.resolutionsPerAuthority[0].status.code !== 'ER_SUCCESS_MATCH') {
-        return null;
+      if (slot.resolutions.resolutionsPerAuthority[0].status.code === 'ER_SUCCESS_MATCH') {
+        return slot.resolutions.resolutionsPerAuthority[0].values[0].value;
       }
-
-      return slot.resolutions.resolutionsPerAuthority[0].values[0].value;
-    } catch (e) {
-      return null;
-    }
+    } catch (e) {}
   }
 
   _getReprompt() {
@@ -74,8 +70,12 @@ export default class AlexaSnowReportSkill {
   @Intent('RegionIntent')
   async when({ region }, { request }) {
     const slotValue = this._getSlotValue(request, 'region');
+
     if (!slotValue || !slotValue.id) {
-      return ask(`Das Skigebiet ${region} ist nicht in meiner Datenbank. Bitte nenne ein anderes Gebiet.`)
+      const slotInfoText = region
+        ? `Das Skigebiet ${region} ist nicht in meiner Datenbank`
+        : 'Ich habe dich nicht verstanden';
+      return ask(`${slotInfoText}. Bitte nenne ein anderes Gebiet.`)
         .reprompt(this._getReprompt());
     }
 
