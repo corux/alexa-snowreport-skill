@@ -49,7 +49,14 @@ export default class AlexaSnowReportSkill {
       }
     }
     if (report.condition) {
-      texts.push(`Der Schneezustand ist ${report.condition}.`);
+      if (report.conditionPiste) {
+        texts.push(`Der Schneezustand ist ${report.condition} und die Piste ist ${report.conditionPiste}.`);
+      } else {
+        texts.push(`Der Schneezustand ist ${report.condition}.`);
+      }
+    }
+    if (report.openLifts) {
+      texts.push(`Es sind ${report.openLifts} Lifte geöffnet.`);
     }
     if (report.avalanche) {
       texts.push(`Die aktuelle Lawinenwarnstufe ist ${report.avalanche}.`);

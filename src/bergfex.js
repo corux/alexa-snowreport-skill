@@ -124,6 +124,7 @@ export default class Bergfex {
           return text.trim();
         }
       };
+      const fnTextFirstLine = elem => fnText(elem).split('\n')[0].trim();
       const fnCm = elem => elem.text().match(/([0-9]+)/)[1].trim();
       const fnCmNew = elem => elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim();
       const fnName = () => {
@@ -162,8 +163,10 @@ export default class Bergfex {
         upperNew: extractData('Berg', fnCmNew),
         condition: extractData('Schneezustand', fnText),
         lastSnow: extractData('Letzter Schneefall', fnDateTime),
-        avalanche: extractData('Lawinenwarnstufe', n => fnText(n).split('\n')[0].trim()),
-        time: extractData('Schneebericht', fnDateTime)
+        avalanche: extractData('Lawinenwarnstufe', fnTextFirstLine),
+        time: extractData('Schneebericht', fnDateTime),
+        openLifts: extractData('Offene Lifte', fnTextFirstLine),
+        conditionPiste: extractData('Pistenzustand', fnText)
       };
     } catch (e) {
       console.error(e);
