@@ -8,6 +8,7 @@
     "stage-1"
   ],
   "plugins": [
+    "source-map-support",
     "transform-decorators-legacy"
   ]
 }
