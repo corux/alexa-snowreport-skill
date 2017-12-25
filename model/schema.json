@@ -748,6 +748,16 @@
             }
           },
           {
+            "id": "gerlosstein",
+            "name": {
+              "value": "Gerlosstein / Hainzenberg - Zillertal Arena",
+              "synonyms": [
+                "Gerlosstein",
+                "Hainzenberg"
+              ]
+            }
+          },
+          {
             "id": "glasenberg",
             "name": {
               "value": "Glasenberg - Maria Neustift",
@@ -1126,6 +1136,15 @@
               "value": "Hohentauern",
               "synonyms": [
                 "hohentauern"
+              ]
+            }
+          },
+          {
+            "id": "holzgau",
+            "name": {
+              "value": "Holzgau",
+              "synonyms": [
+                "holzgau"
               ]
             }
           },
@@ -2240,6 +2259,17 @@
             }
           },
           {
+            "id": "steirischerseeberg",
+            "name": {
+              "value": "Seeberg / Seewiesen",
+              "synonyms": [
+                "Seeberg",
+                "Seewiesen",
+                "steirischerseeberg"
+              ]
+            }
+          },
+          {
             "id": "birkenlift-geigenbuehellift-seefeld",
             "name": {
               "value": "Seefeld / Birkenlift & Geigenbühellift",
@@ -2566,17 +2596,6 @@
                 "St. Georgen am Walde",
                 "Schorschi-Lift",
                 "stgeorgen"
-              ]
-            }
-          },
-          {
-            "id": "sthemma",
-            "name": {
-              "value": "St. Hemma - Edelschrott",
-              "synonyms": [
-                "St. Hemma",
-                "Edelschrott",
-                "sthemma"
               ]
             }
           },
@@ -2992,6 +3011,17 @@
             }
           },
           {
+            "id": "wimmer",
+            "name": {
+              "value": "Wimmerlift / Hart-Purgstall",
+              "synonyms": [
+                "Wimmerlift",
+                "Hart-Purgstall",
+                "wimmer"
+              ]
+            }
+          },
+          {
             "id": "wintersportarena-liebenau",
             "name": {
               "value": "Wintersportarena Liebenau",
@@ -3007,6 +3037,17 @@
               "synonyms": [
                 "Wurzeralm",
                 "Spital am Pyhrn"
+              ]
+            }
+          },
+          {
+            "id": "zahmer-kaiser",
+            "name": {
+              "value": "Zahmer Kaiser - Walchsee",
+              "synonyms": [
+                "Zahmer Kaiser",
+                "Walchsee",
+                "zahmer-kaiser"
               ]
             }
           },
@@ -3292,6 +3333,15 @@
             }
           },
           {
+            "id": "carlsfeld",
+            "name": {
+              "value": "Carlsfeld",
+              "synonyms": [
+                "carlsfeld"
+              ]
+            }
+          },
+          {
             "id": "neureichenau",
             "name": {
               "value": "Dreisessel Frauenberg / Neureichenau",
@@ -3377,15 +3427,6 @@
             }
           },
           {
-            "id": "frankenlift-wurzbach",
-            "name": {
-              "value": "Frankenlift Wurzbach",
-              "synonyms": [
-                "frankenlift-wurzbach"
-              ]
-            }
-          },
-          {
             "id": "freyung-geyersberg",
             "name": {
               "value": "Freyung - Geyersberg",
@@ -3433,15 +3474,6 @@
               "value": "Geisskopf",
               "synonyms": [
                 "geisskopf"
-              ]
-            }
-          },
-          {
-            "id": "geyersdorf",
-            "name": {
-              "value": "Geyersdorf",
-              "synonyms": [
-                "geyersdorf"
               ]
             }
           },
@@ -6287,6 +6319,17 @@
             }
           },
           {
+            "id": "staldenried-gspon",
+            "name": {
+              "value": "Staldenried - Gspon",
+              "synonyms": [
+                "Staldenried",
+                "Gspon",
+                "staldenried-gspon"
+              ]
+            }
+          },
+          {
             "id": "stoos",
             "name": {
               "value": "Stoos",
@@ -6851,15 +6894,6 @@
             }
           },
           {
-            "id": "paganella",
-            "name": {
-              "value": "Paganella",
-              "synonyms": [
-                "paganella"
-              ]
-            }
-          },
-          {
             "id": "marmolada-passo-fedaia",
             "name": {
               "value": "Passo Fedaia - Marmolada",
@@ -6907,6 +6941,17 @@
               "value": "Piancavallo",
               "synonyms": [
                 "piancavallo"
+              ]
+            }
+          },
+          {
+            "id": "pinzolo",
+            "name": {
+              "value": "Pinzolo - Val Rendena / Dolomiti di Brenta",
+              "synonyms": [
+                "Pinzolo",
+                "Val Rendena",
+                "Dolomiti di Brenta"
               ]
             }
           },
@@ -6996,17 +7041,6 @@
               "value": "Reinswald Sarntal",
               "synonyms": [
                 "reinswald-sarntal"
-              ]
-            }
-          },
-          {
-            "id": "riepenlift-antholz-mittertal",
-            "name": {
-              "value": "Riepenlift - Antholz Mittertal",
-              "synonyms": [
-                "Riepenlift",
-                "Antholz Mittertal",
-                "riepenlift-antholz-mittertal"
               ]
             }
           },
@@ -7173,6 +7207,15 @@
             }
           },
           {
+            "id": "torgnon",
+            "name": {
+              "value": "Torgnon",
+              "synonyms": [
+                "torgnon"
+              ]
+            }
+          },
+          {
             "id": "trafoi-ortler",
             "name": {
               "value": "Trafoi am Ortler / Furkel",
@@ -7235,6 +7278,6 @@
         ]
       }
     ],
-    "invocationName": "schnee bericht"
+    "invocationName": "schneebericht"
   }
 }
