@@ -32,16 +32,17 @@ export default class AlexaSnowReportSkill {
     const time = report.time || 'Heute';
     const texts = [`Hier ist der Schneebericht für ${report.name} von ${time}.`];
     if (report.upper !== undefined) {
-      texts.push(`Auf dem Berg beträgt die Schneehöhe ${report.upper} cm.`);
-    }
-    if (report.upperNew !== undefined) {
-      texts.push(`Es gibt ${report.upperNew} cm Neuschnee.`);
+      if (report.upperNew !== undefined) {
+        texts.push(`Auf dem Berg beträgt die Schneehöhe ${report.upper} cm und es gibt ${report.upperNew} cm Neuschnee.`);
+      } else {
+        texts.push(`Auf dem Berg beträgt die Schneehöhe ${report.upper} cm.`);
+      }
     }
     if (report.lower !== undefined) {
-      texts.push(`Im Tal beträgt die Schneehöhe ${report.lower} cm.`);
-
       if (report.lowerNew !== undefined) {
-        texts.push(`Und es gibt ${report.lowerNew} cm Neuschnee.`);
+        texts.push(`Im Tal beträgt die Schneehöhe ${report.lower} cm und es gibt ${report.lowerNew} cm Neuschnee.`);
+      } else {
+        texts.push(`Im Tal beträgt die Schneehöhe ${report.lower} cm.`);
       }
     }
     if (report.condition) {
@@ -51,8 +52,18 @@ export default class AlexaSnowReportSkill {
         texts.push(`Der Schneezustand ist ${report.condition}.`);
       }
     }
-    if (report.openLifts) {
-      texts.push(`Es sind ${report.openLifts} Lifte geöffnet.`);
+    if (report.openLifts !== undefined && report.totalLifts !== undefined) {
+      if (report.openLifts === report.totalLifts) {
+        if (report.totalLifts === 1) {
+          texts.push('Der Lift ist geöffnet.');
+        } else {
+          texts.push(`Es sind alle ${report.totalLifts} Lifte geöffnet.`);
+        }
+      } else if (report.openLifts === 0) {
+        texts.push('Es sind keine Lifte geöffnet');
+      } else {
+        texts.push(`Es sind ${report.openLifts} von ${report.totalLifts} Lifte geöffnet.`);
+      }
     }
     if (report.avalanche) {
       texts.push(`Die aktuelle Lawinenwarnstufe ist ${report.avalanche}.`);

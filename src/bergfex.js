@@ -130,7 +130,8 @@ export default class Bergfex {
       const fnCmNew = elem => elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim();
       const fnName = () => {
         try {
-          return $($('h1.has-sup').contents().get().filter(n => n.nodeType === 3)[0]).text().trim();
+          return $($('h1.has-sup').contents().get().filter(n => n.nodeType === 3)[0]).text()
+            .replace(' - ', ' ').trim();
         } catch (e) {}
       };
       const fnDateTime = elem => {
@@ -154,6 +155,16 @@ export default class Bergfex {
         return text;
       };
 
+      let lifts = extractData('Offene Lifte', fnTextFirstLine).match('([0-9]+)[^0-9]*([0-9]+)');
+      if (lifts && lifts.length === 3) {
+        lifts = {
+          open: parseInt(lifts[1]),
+          total: parseInt(lifts[2])
+        };
+      } else {
+        lifts = {};
+      }
+
       return {
         name: fnName(),
         village: extractData('Ort', fnCm),
@@ -166,7 +177,8 @@ export default class Bergfex {
         lastSnow: extractData('Letzter Schneefall', fnDateTime),
         avalanche: extractData('Lawinenwarnstufe', fnTextFirstLine),
         time: extractData('Schneebericht', fnDateTime),
-        openLifts: extractData('Offene Lifte', fnTextFirstLine),
+        openLifts: lifts.open,
+        totalLifts: lifts.total,
         conditionPiste: extractData('Pistenzustand', fnText)
       };
     } catch (e) {
