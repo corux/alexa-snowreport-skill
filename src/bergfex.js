@@ -46,8 +46,8 @@ export default class Bergfex {
     for (let country of countries) {
       const url = `https://www.bergfex.de/${country}/schneewerte/`;
       try {
-        const body = await request(url);
         console.log(`Request: ${url}`);
+        const body = await request(url, { timeout: 2000 });
 
         const $ = cheerio.load(body);
         items = items.concat($('.content table').find('.tr0,.tr1').get()
@@ -100,8 +100,8 @@ export default class Bergfex {
   async getSnowReport(skiRegion) {
     const url = `https://www.bergfex.de/${skiRegion}/schneebericht/`;
     try {
-      const body = await request(url);
       console.log(`Request: ${url}`);
+      const body = await request(url, { timeout: 2000 });
 
       const $ = cheerio.load(body);
       const items = $('.content dl dt,dd').get();
