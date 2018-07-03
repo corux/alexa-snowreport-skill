@@ -44,21 +44,18 @@ export default class Bergfex {
   async getSkiRegions(...countries) {
     let items = [];
     for (let country of countries) {
-      const url = `https://www.bergfex.de/${country}/schneewerte/`;
+      const url = `https://www.bergfex.de/${country}/`;
       try {
         console.log(`Request: ${url}`);
         const body = await request(url, { timeout: 2000 });
 
         const $ = cheerio.load(body);
-        items = items.concat($('.content table').find('.tr0,.tr1').get()
+        items = items.concat($('.content li a:first-child').get()
           .map((elem) => {
-            const td = $(elem).find('td').get();
-            const link = $($(td[0]).find('a').get()[0]);
-
-            const name = $(td[0]).text();
-            const code = link.attr('href').match(/^\/([a-z\-_0-9]+)\/schneebericht\//)[1];
+            const name = $(elem).text();
+            const code = $(elem).attr('href').match(/^\/([a-z\-_0-9]+)\//)[1];
             const altNames = this._getAlternativeNames(name);
-            if (!altNames.some(n => n.toUpperCase() == code.toUpperCase())) {
+            if (!altNames.some(n => n.toUpperCase() === code.toUpperCase())) {
               altNames.push(code);
             }
 
