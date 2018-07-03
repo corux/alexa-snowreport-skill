@@ -32,6 +32,8 @@ bergfex.getSkiRegions.apply(bergfex, countries).then(result => {
     }
   }));
 
+  skiRegions.values.sort((a, b) => a.id.localeCompare(b.id));
+
   schema.languageModel.types = [skiRegions];
   writeFile(schema);
 });
