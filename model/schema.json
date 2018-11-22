@@ -439,11 +439,9 @@
           {
             "id": "andermatt-gemsstock-naetschen",
             "name": {
-              "value": "Andermatt - Gemsstock - Nätschen",
+              "value": "Andermatt - Gemsstock",
               "synonyms": [
-                "Andermatt",
                 "Gemsstock",
-                "Nätschen",
                 "andermatt-gemsstock-naetschen"
               ]
             }
@@ -640,6 +638,17 @@
             }
           },
           {
+            "id": "auerberg-bernbeuren",
+            "name": {
+              "value": "Auerberg / Bernbeuren",
+              "synonyms": [
+                "Auerberg",
+                "Bernbeuren",
+                "auerberg-bernbeuren"
+              ]
+            }
+          },
+          {
             "id": "augustusburg",
             "name": {
               "value": "Augustusburg",
@@ -742,10 +751,8 @@
           {
             "id": "badkleinkirchheim",
             "name": {
-              "value": "Bad Kleinkirchheim - St. Oswald Skiarena",
+              "value": "Bad Kleinkirchheim",
               "synonyms": [
-                "Bad Kleinkirchheim",
-                "St. Oswald Skiarena",
                 "badkleinkirchheim"
               ]
             }
@@ -1348,6 +1355,15 @@
             }
           },
           {
+            "id": "brombergalm",
+            "name": {
+              "value": "Bromberg Alm",
+              "synonyms": [
+                "brombergalm"
+              ]
+            }
+          },
+          {
             "id": "brotterode",
             "name": {
               "value": "Brotterode",
@@ -1449,17 +1465,6 @@
               "synonyms": [
                 "Buchsteinlift",
                 "St. Gallen"
-              ]
-            }
-          },
-          {
-            "id": "buerchen-toerbel",
-            "name": {
-              "value": "Bürchen-Törbel / Moosalp",
-              "synonyms": [
-                "Bürchen-Törbel",
-                "Moosalp",
-                "buerchen-toerbel"
               ]
             }
           },
@@ -1753,9 +1758,8 @@
           {
             "id": "chateau-doex",
             "name": {
-              "value": "Gstaad - Château-d'Oex",
+              "value": "Château-d'Oex",
               "synonyms": [
-                "Château-d'Oex",
                 "chateau-doex"
               ]
             }
@@ -3659,16 +3663,6 @@
             }
           },
           {
-            "id": "haideralm-reschenpass",
-            "name": {
-              "value": "Haideralm - Reschenpass",
-              "synonyms": [
-                "Haideralm",
-                "haideralm-reschenpass"
-              ]
-            }
-          },
-          {
             "id": "haidmuehle-bischofsreut-frauenberg",
             "name": {
               "value": "Haidmühle - Bischofsreut - Frauenberg",
@@ -4130,11 +4124,11 @@
           {
             "id": "hochrindl",
             "name": {
-              "value": "Sirnitz - Albeck - Hochrindl",
+              "value": "Hochrindl - Sirnitz - Deutsch Griffen",
               "synonyms": [
+                "Hochrindl",
                 "Sirnitz",
-                "Albeck",
-                "Hochrindl"
+                "Deutsch Griffen"
               ]
             }
           },
@@ -4449,6 +4443,15 @@
             }
           },
           {
+            "id": "ilgenlift-steingaden",
+            "name": {
+              "value": "Ilgenlift Steingaden",
+              "synonyms": [
+                "ilgenlift-steingaden"
+              ]
+            }
+          },
+          {
             "id": "imbergbahn-steibis",
             "name": {
               "value": "Imbergbahn & Ski-Arena Steibis",
@@ -4654,6 +4657,17 @@
               "value": "Jungholz",
               "synonyms": [
                 "jungholz"
+              ]
+            }
+          },
+          {
+            "id": "junker-st-antoenien",
+            "name": {
+              "value": "Junker - St. Antönien",
+              "synonyms": [
+                "Junker",
+                "St. Antönien",
+                "junker-st-antoenien"
               ]
             }
           },
@@ -5253,10 +5267,10 @@
           {
             "id": "kuessnacht-rigi-seebodenalp",
             "name": {
-              "value": "Küssnacht am Rigi - Seebodenalp",
+              "value": "Seebodenalp - Küssnacht am Rigi",
               "synonyms": [
-                "Küssnacht am Rigi",
                 "Seebodenalp",
+                "Küssnacht am Rigi",
                 "kuessnacht-rigi-seebodenalp"
               ]
             }
@@ -6373,6 +6387,15 @@
             }
           },
           {
+            "id": "moosalpregion",
+            "name": {
+              "value": "Moosalpregion",
+              "synonyms": [
+                "moosalpregion"
+              ]
+            }
+          },
+          {
             "id": "morgins",
             "name": {
               "value": "Morgins / Portes du Soleil",
@@ -6907,7 +6930,6 @@
               "value": "Ötzlifte Kochel - Rabenkopf",
               "synonyms": [
                 "Ötzlifte Kochel",
-                "Rabenkopf",
                 "oetzlifte-kochel"
               ]
             }
@@ -6940,6 +6962,15 @@
                 "Onstmettingen",
                 "Ruchtal",
                 "onstmettingen-ruchtal"
+              ]
+            }
+          },
+          {
+            "id": "ostalb-skilifte-aalen",
+            "name": {
+              "value": "Ostalb-Skilifte Aalen",
+              "synonyms": [
+                "ostalb-skilifte-aalen"
               ]
             }
           },
@@ -7005,6 +7036,15 @@
               "value": "Panoramalifte Hopfen",
               "synonyms": [
                 "panoramalifte-hopfen-allgaeu"
+              ]
+            }
+          },
+          {
+            "id": "pany",
+            "name": {
+              "value": "Pany",
+              "synonyms": [
+                "pany"
               ]
             }
           },
@@ -7477,6 +7517,15 @@
               "value": "Skilift Quellenwiese",
               "synonyms": [
                 "quellenwiese"
+              ]
+            }
+          },
+          {
+            "id": "rabenkopf-oberau",
+            "name": {
+              "value": "Rabenkopf - Oberau",
+              "synonyms": [
+                "rabenkopf-oberau"
               ]
             }
           },
@@ -8747,12 +8796,13 @@
             }
           },
           {
-            "id": "schoeneben-reschenpass",
+            "id": "schoeneben-haideralm-reschenpass",
             "name": {
-              "value": "Schöneben - Reschenpass",
+              "value": "Schöneben - Haideralm / Reschenpass",
               "synonyms": [
                 "Schöneben",
-                "schoeneben-reschenpass"
+                "Haideralm",
+                "schoeneben-haideralm-reschenpass"
               ]
             }
           },
@@ -8945,9 +8995,10 @@
           {
             "id": "sedrun",
             "name": {
-              "value": "Sedrun Oberalp",
+              "value": "Andermatt - Oberalp - Sedrun",
               "synonyms": [
-                "sedrun"
+                "Oberalp",
+                "Sedrun"
               ]
             }
           },
@@ -9395,6 +9446,15 @@
               "value": "Hartmannsdorfer Skipiste",
               "synonyms": [
                 "skilift-markt-hartmannsdorf"
+              ]
+            }
+          },
+          {
+            "id": "skilift-mastrils",
+            "name": {
+              "value": "Skilift Mastrils",
+              "synonyms": [
+                "skilift-mastrils"
               ]
             }
           },
@@ -10644,9 +10704,9 @@
           {
             "id": "veitsch-brunnalm",
             "name": {
-              "value": "Veitsch - Brunnalm",
+              "value": "Brunnalm - Hohe Veitsch",
               "synonyms": [
-                "Veitsch",
+                "Hohe Veitsch",
                 "veitsch-brunnalm"
               ]
             }
