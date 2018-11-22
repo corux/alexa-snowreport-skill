@@ -50,7 +50,7 @@ export default class Bergfex {
         const body = await request(url, { timeout: 2000 });
 
         const $ = cheerio.load(body);
-        items = items.concat($('.content li a:first-child').get()
+        items = items.concat($('.content .section-left .txt_markup li a:first-child').get()
           .map((elem) => {
             const name = $(elem).text();
             const code = $(elem).attr('href').match(/^\/([a-z\-_0-9]+)\//)[1];
@@ -127,7 +127,8 @@ export default class Bergfex {
       const fnCmNew = elem => elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim();
       const fnName = () => {
         try {
-          return $($('h1.has-sup').contents().get().filter(n => n.nodeType === 3)[0]).text()
+          const headerText = $('header h1').contents().get().filter(n => n.nodeType === 3 && !!n.data.trim());
+          return $(headerText).text()
             .replace(' - ', ' ').trim();
         } catch (e) {}
       };
