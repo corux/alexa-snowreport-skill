@@ -1,0 +1,32 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.69b437a7-511d-49b2-8082-f526df101ea8",
+      "was_cloned": false,
+      "resources": {
+        "manifest": {
+          "eTag": "b7038a717a2de00be2522db270854e93"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "29b2d1d4671a65fe841828360625054f"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:347839150037:function:alexa-snowreport-skill-production-skill",
+            "awsRegion": "eu-west-1",
+            "codeUri": "dist",
+            "functionName": "arn:aws:lambda:eu-west-1:347839150037:function:alexa-snowreport-skill-production-skill",
+            "handler": "index.handler",
+            "revisionId": "1fcedd60-5c80-4b46-baa3-877e86cde7ab",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
