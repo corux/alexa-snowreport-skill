@@ -24,7 +24,7 @@
     "@types/request-promise-native": "1.0.15",
     "ask-cli": "1.5.2",
     "ask-sdk-core": "2.3.0",
-    "ask-sdk-model": "1.11.1",
+    "ask-sdk-model": "1.11.2",
     "cheerio": "1.0.0-rc.2",
     "class.extend": "0.9.2",
     "commander": "2.19.0",
