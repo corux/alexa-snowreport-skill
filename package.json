@@ -22,7 +22,7 @@
     "@types/jest": "23.3.13",
     "@types/node": "10.12.18",
     "@types/request-promise-native": "1.0.15",
-    "ask-cli": "1.5.4",
+    "ask-cli": "1.6.0",
     "ask-sdk-core": "2.3.0",
     "ask-sdk-model": "1.11.2",
     "cheerio": "1.0.0-rc.2",
