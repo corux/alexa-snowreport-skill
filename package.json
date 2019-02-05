@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/cheerio": "0.22.10",
-    "@types/jest": "23.3.13",
+    "@types/jest": "23.3.14",
     "@types/node": "10.12.21",
     "@types/request-promise-native": "1.0.15",
     "ask-cli": "1.6.0",
