@@ -37,7 +37,7 @@
     "tslint": "5.13.0",
     "typescript": "3.3.3333",
     "underscore": "1.9.1",
-    "virtual-alexa": "0.7.1",
+    "virtual-alexa": "0.7.2",
     "webpack": "4.29.6",
     "webpack-command": "0.4.2"
   }
