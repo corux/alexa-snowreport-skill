@@ -1,5 +1,5 @@
+import axios from "axios";
 import * as cheerio from "cheerio";
-import * as request from "request-promise-native";
 
 export interface IRegion {
   altNames: string[];
@@ -58,7 +58,7 @@ export class Bergfex {
       const url = `https://www.bergfex.de/${country}/`;
       try {
         console.log(`Request: ${url}`);
-        const body = await request(url, { timeout: 2000 });
+        const body = (await axios.get(url, { timeout: 2000 })).data;
 
         const $ = cheerio.load(body);
         items = items.concat($(".content .section-left .txt_markup li a:first-child").get()
@@ -101,7 +101,7 @@ export class Bergfex {
     const url = `https://www.bergfex.de/${skiRegion}/schneebericht/`;
     try {
       console.log(`Request: ${url}`);
-      const body = await request(url, { timeout: 2000 });
+      const body = (await axios.get(url, { timeout: 2000 })).data;
 
       const $ = cheerio.load(body);
 
