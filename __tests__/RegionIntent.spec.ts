@@ -25,7 +25,7 @@ describe("RegionIntent", () => {
   });
 
   it("should answer with snow report", async () => {
-    const result: any = await alexa.utter("wieviel Schnee hat es in axamer lizum");
-    expect(result.response.outputSpeech.ssml).toContain("Hier ist der Schneebericht für Axamer Lizum von");
+    const result: any = await alexa.utter("wieviel Schnee hat es in hintertux");
+    expect(result.response.outputSpeech.ssml).toContain("Hier ist der Schneebericht für Hintertuxer Gletscher / Hintertux von");
   });
 });
