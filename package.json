@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/cheerio": "0.22.11",
-    "@types/jest": "24.0.12",
+    "@types/jest": "24.0.13",
     "@types/node": "10.14.1",
     "ask-cli": "1.7.2",
     "ask-sdk-core": "2.5.2",
@@ -36,7 +36,7 @@
     "tslint": "5.16.0",
     "typescript": "3.4.5",
     "virtual-alexa": "0.7.2",
-    "webpack": "4.30.0",
+    "webpack": "4.31.0",
     "webpack-command": "0.4.2"
   }
 }
