@@ -7,6 +7,7 @@
   "scripts": {
     "pretest": "npm run build:prod",
     "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
     "build": "webpack --config webpack.config.ts --require ts-node/register",

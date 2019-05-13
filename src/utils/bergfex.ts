@@ -105,7 +105,7 @@ export class Bergfex {
 
       const $ = cheerio.load(body);
 
-      const extractData = (key, postProcFn) => {
+      const extractData = <T>(key: string, postProcFn: ((elem: any) => T)) => {
         const items = $(".content dl dt,dd").get();
         try {
           const dtIndex = items.findIndex((elem) =>
@@ -127,8 +127,8 @@ export class Bergfex {
         }
       };
       const fnTextFirstLine = (elem) => fnText(elem).split("\n")[0].trim();
-      const fnCm = (elem) => elem.text().match(/([0-9]+)/)[1].trim();
-      const fnCmNew = (elem) => elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim();
+      const fnCm = (elem) => parseInt(elem.text().match(/([0-9]+)/)[1].trim(), 10);
+      const fnCmNew = (elem) => parseInt(elem.text().match(/neu[^0-9]*([0-9]+)/)[1].trim(), 10);
       const fnName = () => {
         try {
           const headerText = $("header h1").contents().get().filter((n) => n.nodeType === 3 && !!n.data.trim());
@@ -160,14 +160,12 @@ export class Bergfex {
         return text;
       };
 
-      let lifts = extractData("Offene Lifte", fnTextFirstLine).match("([0-9]+)[^0-9]*([0-9]+)");
+      const lifts = extractData("Offene Lifte", fnTextFirstLine).match("([0-9]+)[^0-9]*([0-9]+)");
+      let liftsOpen: number;
+      let liftsTotal: number;
       if (lifts && lifts.length === 3) {
-        lifts = {
-          open: parseInt(lifts[1], 10),
-          total: parseInt(lifts[2], 10),
-        };
-      } else {
-        lifts = {};
+        liftsOpen = parseInt(lifts[1], 10);
+        liftsTotal = parseInt(lifts[2], 10);
       }
 
       return {
@@ -175,12 +173,12 @@ export class Bergfex {
         condition: extractData("Schneezustand", fnText),
         conditionPiste: extractData("Pistenzustand", fnText),
         lastSnow: extractData("Letzter Schneefall", fnDateTime),
-        lower: extractData("Tal", fnCm),
-        lowerNew: extractData("Tal", fnCmNew),
+        lower: extractData("Tal", fnCm) || extractData("Schneehöhe Ort", fnCm),
+        lowerNew: extractData("Tal", fnCmNew) || extractData("Schneehöhe Ort", fnCmNew),
         name: fnName(),
-        openLifts: lifts.open,
+        openLifts: liftsOpen,
         time: extractData("Schneebericht", fnDateTime),
-        totalLifts: lifts.total,
+        totalLifts: liftsTotal,
         upper: extractData("Berg", fnCm),
         upperNew: extractData("Berg", fnCmNew),
         village: extractData("Ort", fnCm),
