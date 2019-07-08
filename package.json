@@ -20,12 +20,12 @@
     "deploy:assets": "aws s3 sync ./assets s3://alexa-snowreport-skill/ --acl public-read"
   },
   "devDependencies": {
-    "@types/cheerio": "0.22.11",
+    "@types/cheerio": "0.22.12",
     "@types/jest": "24.0.15",
     "@types/node": "10.14.1",
-    "ask-cli": "1.7.4",
+    "ask-cli": "1.7.5",
     "ask-sdk-core": "2.6.0",
-    "ask-sdk-model": "1.17.0",
+    "ask-sdk-model": "1.18.0",
     "axios": "0.19.0",
     "cheerio": "1.0.0-rc.3",
     "commander": "2.20.0",
