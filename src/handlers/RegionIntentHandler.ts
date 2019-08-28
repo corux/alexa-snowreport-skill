@@ -1,10 +1,10 @@
-import { HandlerInput } from "ask-sdk-core";
+import { BaseRequestHandler, IExtendedHandlerInput, Intents } from "@corux/ask-extensions";
 import { IntentRequest, Response } from "ask-sdk-model";
-import { BaseIntentHandler, Bergfex, getReprompt, getSlotId, Intents, transformReport } from "../utils";
+import { Bergfex, getReprompt, getSlotId, transformReport } from "../utils";
 
 @Intents("RegionIntent")
-export class RegionIntentHandler extends BaseIntentHandler {
-  public async handle(handlerInput: HandlerInput): Promise<Response> {
+export class RegionIntentHandler extends BaseRequestHandler {
+  public async handle(handlerInput: IExtendedHandlerInput): Promise<Response> {
     const slot = (handlerInput.requestEnvelope.request as IntentRequest).intent.slots.region;
     const regionId = getSlotId(slot);
     const slotValue = slot && slot.value;
@@ -13,7 +13,7 @@ export class RegionIntentHandler extends BaseIntentHandler {
       const slotInfoText = slotValue
         ? `Das Skigebiet ${slotValue} ist nicht in meiner Datenbank`
         : "Ich habe dich nicht verstanden";
-      return handlerInput.responseBuilder
+      return handlerInput.getResponseBuilder()
         .speak(`${slotInfoText}. Bitte nenne ein anderes Gebiet.`)
         .reprompt(getReprompt())
         .getResponse();
@@ -23,7 +23,7 @@ export class RegionIntentHandler extends BaseIntentHandler {
     const report = await bergfex.getSnowReport(regionId);
 
     const reportText = transformReport(report) || `Der Schneebericht für ${slotValue} ist aktuell nicht verfügbar.`;
-    return handlerInput.responseBuilder
+    return handlerInput.getResponseBuilder()
       .speak(reportText)
       .withShouldEndSession(true)
       .getResponse();

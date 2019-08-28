@@ -1,3 +1,4 @@
+import { LogInterceptor, SessionEndedHandler } from "@corux/ask-extensions";
 import { SkillBuilders } from "ask-sdk-core";
 import {
   AmazonHelpIntentHandler,
@@ -5,9 +6,7 @@ import {
   CustomErrorHandler,
   LaunchRequestHandler,
   RegionIntentHandler,
-  SessionEndedHandler,
 } from "./handlers";
-import { LogInterceptor } from "./interceptors";
 
 export const handler = SkillBuilders.custom()
   .addRequestHandlers(
