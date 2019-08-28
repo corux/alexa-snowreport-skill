@@ -104,6 +104,28 @@
               }
             },
             {
+              "id": "aetna-nord-piano-provenzana",
+              "name": {
+                "synonyms": [
+                  "Ätna Nord",
+                  "Piano Provenzana Linguaglossa",
+                  "aetna-nord-piano-provenzana"
+                ],
+                "value": "Ätna Nord - Piano Provenzana Linguaglossa"
+              }
+            },
+            {
+              "id": "aetna-sued-nicolosi",
+              "name": {
+                "synonyms": [
+                  "Ätna Süd",
+                  "Nicolosi",
+                  "aetna-sued-nicolosi"
+                ],
+                "value": "Ätna Süd - Nicolosi"
+              }
+            },
+            {
               "id": "afiesl",
               "name": {
                 "value": "Afiesl"
@@ -255,6 +277,15 @@
               }
             },
             {
+              "id": "alpin-lift-hausen-an-der-lauchert",
+              "name": {
+                "synonyms": [
+                  "alpin-lift-hausen-an-der-lauchert"
+                ],
+                "value": "Alpin-Lift Hausen an der Lauchert"
+              }
+            },
+            {
               "id": "alpincenter-bottrop",
               "name": {
                 "synonyms": [
@@ -369,6 +400,15 @@
               }
             },
             {
+              "id": "althuette-waldmuenchen",
+              "name": {
+                "synonyms": [
+                  "althuette-waldmuenchen"
+                ],
+                "value": "Althütte Waldmünchen"
+              }
+            },
+            {
               "id": "altipiani-folgaria-lavarone-luserna",
               "name": {
                 "synonyms": [
@@ -472,7 +512,7 @@
                   "Ayas",
                   "antagnod-ayas"
                 ],
-                "value": "Antagnod - Ayas"
+                "value": "Antagnod - Ayas / Monterosa"
               }
             },
             {
@@ -633,6 +673,17 @@
               "id": "avers",
               "name": {
                 "value": "Avers"
+              }
+            },
+            {
+              "id": "awengen-eberhardzell",
+              "name": {
+                "synonyms": [
+                  "Awengen",
+                  "Eberhardzell",
+                  "awengen-eberhardzell"
+                ],
+                "value": "Awengen - Eberhardzell"
               }
             },
             {
@@ -1000,6 +1051,12 @@
               }
             },
             {
+              "id": "birgitz",
+              "name": {
+                "value": "Birgitz"
+              }
+            },
+            {
               "id": "birkenlift-geigenbuehellift-seefeld",
               "name": {
                 "synonyms": [
@@ -1197,10 +1254,11 @@
               "name": {
                 "synonyms": [
                   "Breitenberg",
+                  "Hochalpe",
                   "Pfronten",
                   "breitenberg-ostallgaeu"
                 ],
-                "value": "Breitenberg / Pfronten"
+                "value": "Breitenberg - Hochalpe / Pfronten"
               }
             },
             {
@@ -1331,13 +1389,19 @@
             {
               "id": "bruson",
               "name": {
-                "value": "Bruson"
+                "synonyms": [
+                  "Bruson"
+                ],
+                "value": "Bruson - Verbier"
               }
             },
             {
               "id": "brusson",
               "name": {
-                "value": "Brusson"
+                "synonyms": [
+                  "Brusson"
+                ],
+                "value": "Brusson / Monterosa"
               }
             },
             {
@@ -1374,6 +1438,17 @@
                   "St. Gallen"
                 ],
                 "value": "Buchsteinlift - St. Gallen"
+              }
+            },
+            {
+              "id": "buegls-s-chanf",
+              "name": {
+                "synonyms": [
+                  "Bügls",
+                  "S-chanf",
+                  "buegls-s-chanf"
+                ],
+                "value": "Bügls - S-chanf"
               }
             },
             {
@@ -1620,7 +1695,10 @@
             {
               "id": "champorcher",
               "name": {
-                "value": "Champorcher"
+                "synonyms": [
+                  "Champorcher"
+                ],
+                "value": "Champorcher / Monterosa"
               }
             },
             {
@@ -1943,7 +2021,22 @@
             {
               "id": "diavolezza",
               "name": {
-                "value": "Diavolezza"
+                "synonyms": [
+                  "Diavolezza",
+                  "Lagalb"
+                ],
+                "value": "Diavolezza - Lagalb"
+              }
+            },
+            {
+              "id": "dickeloch-winterlingen",
+              "name": {
+                "synonyms": [
+                  "Dickeloch",
+                  "Winterlingen",
+                  "dickeloch-winterlingen"
+                ],
+                "value": "Dickeloch - Winterlingen"
               }
             },
             {
@@ -1960,7 +2053,11 @@
             {
               "id": "diedamskopf",
               "name": {
-                "value": "Diedamskopf"
+                "synonyms": [
+                  "Diedamskopf",
+                  "Schoppernau"
+                ],
+                "value": "Diedamskopf - Schoppernau"
               }
             },
             {
@@ -2054,7 +2151,7 @@
                 "synonyms": [
                   "drei-zinnen-dolomiten"
                 ],
-                "value": "Drei Zinnen Dolomiten"
+                "value": "3 Zinnen Dolomiten"
               }
             },
             {
@@ -2370,6 +2467,17 @@
               }
             },
             {
+              "id": "eschenberg-niedersfeld",
+              "name": {
+                "synonyms": [
+                  "Eschenberglifte",
+                  "Niedersfeld",
+                  "eschenberg-niedersfeld"
+                ],
+                "value": "Eschenberglifte / Niedersfeld"
+              }
+            },
+            {
               "id": "eschenfelden-hirschbach",
               "name": {
                 "synonyms": [
@@ -2418,6 +2526,17 @@
               }
             },
             {
+              "id": "fahrenberg-vohenstrauss",
+              "name": {
+                "synonyms": [
+                  "Fahrenberg",
+                  "Vohenstrauß",
+                  "fahrenberg-vohenstrauss"
+                ],
+                "value": "Fahrenberg - Vohenstrauß"
+              }
+            },
+            {
               "id": "falkenstein",
               "name": {
                 "value": "Skilift Falkenstein"
@@ -2445,9 +2564,24 @@
               }
             },
             {
+              "id": "faltschen-reichenbach-kandertal",
+              "name": {
+                "synonyms": [
+                  "Faltschen",
+                  "Reichenbach im Kandertal",
+                  "faltschen-reichenbach-kandertal"
+                ],
+                "value": "Faltschen - Reichenbach im Kandertal"
+              }
+            },
+            {
               "id": "fanningberg",
               "name": {
-                "value": "Fanningberg"
+                "synonyms": [
+                  "Fanningberg",
+                  "Mariapfarr"
+                ],
+                "value": "Fanningberg - Mariapfarr"
               }
             },
             {
@@ -2920,6 +3054,17 @@
               }
             },
             {
+              "id": "giller-hilchenbach-luetzel",
+              "name": {
+                "synonyms": [
+                  "Giller",
+                  "Hilchenbach-Lützel",
+                  "giller-hilchenbach-luetzel"
+                ],
+                "value": "Giller / Hilchenbach-Lützel"
+              }
+            },
+            {
               "id": "gitschberg-jochtal",
               "name": {
                 "synonyms": [
@@ -2964,6 +3109,17 @@
                   "glonn"
                 ],
                 "value": "Skilifte Glonn"
+              }
+            },
+            {
+              "id": "glueck-auf-langewiese",
+              "name": {
+                "synonyms": [
+                  "Glück auf",
+                  "Langewiese",
+                  "glueck-auf-langewiese"
+                ],
+                "value": "Glück auf / Langewiese"
               }
             },
             {
@@ -3152,9 +3308,10 @@
               "name": {
                 "synonyms": [
                   "La Trinité",
+                  "Alagna Valsesia",
                   "gressoney-la-trinite"
                 ],
-                "value": "Gressoney - La Trinité"
+                "value": "Gressoney - La Trinité - Alagna Valsesia / Monterosa"
               }
             },
             {
@@ -3164,7 +3321,7 @@
                   "Saint Jean",
                   "gressoney-saint-jean"
                 ],
-                "value": "Gressoney - Saint Jean"
+                "value": "Gressoney - Saint Jean / Monterosa"
               }
             },
             {
@@ -3190,7 +3347,10 @@
             {
               "id": "grimmialp",
               "name": {
-                "value": "Grimmialp"
+                "synonyms": [
+                  "Grimmialp"
+                ],
+                "value": "Grimmialp / Diemtigtal"
               }
             },
             {
@@ -3471,6 +3631,17 @@
               }
             },
             {
+              "id": "haldenlift-wintersulgen-heiligenberg",
+              "name": {
+                "synonyms": [
+                  "Haldenlift Wintersulgen",
+                  "Heiligenberg",
+                  "haldenlift-wintersulgen-heiligenberg"
+                ],
+                "value": "Haldenlift Wintersulgen / Heiligenberg"
+              }
+            },
+            {
               "id": "hallein-duerrnberg",
               "name": {
                 "synonyms": [
@@ -3591,6 +3762,16 @@
               }
             },
             {
+              "id": "heiligenschwendi",
+              "name": {
+                "synonyms": [
+                  "Heiligenschwendi",
+                  "Hubelweid"
+                ],
+                "value": "Heiligenschwendi - Hubelweid"
+              }
+            },
+            {
               "id": "hemberg",
               "name": {
                 "value": "Hemberg"
@@ -3605,6 +3786,28 @@
                   "hempelsberg-geiersberg"
                 ],
                 "value": "Hempelsberg - Geiersberg / Oberwarmensteinach"
+              }
+            },
+            {
+              "id": "hennenstein-trochtelfingen",
+              "name": {
+                "synonyms": [
+                  "Hennenstein",
+                  "Trochtelfingen",
+                  "hennenstein-trochtelfingen"
+                ],
+                "value": "Hennenstein - Trochtelfingen"
+              }
+            },
+            {
+              "id": "hermsdorf-erzgebirge",
+              "name": {
+                "synonyms": [
+                  "Hermsdorf",
+                  "Erzgebirge",
+                  "hermsdorf-erzgebirge"
+                ],
+                "value": "Hermsdorf / Erzgebirge"
               }
             },
             {
@@ -3845,15 +4048,6 @@
               }
             },
             {
-              "id": "hochmoos-kreithlift-leutasch",
-              "name": {
-                "synonyms": [
-                  "hochmoos-kreithlift-leutasch"
-                ],
-                "value": "Hochmoos – Bergbahn Kreithlift Leutasch"
-              }
-            },
-            {
               "id": "hochplatte-marquartstein",
               "name": {
                 "synonyms": [
@@ -3999,6 +4193,28 @@
                   "hofsgrund"
                 ],
                 "value": "Hofsgrund Schauinsland"
+              }
+            },
+            {
+              "id": "hohe-bracht-lennestadt",
+              "name": {
+                "synonyms": [
+                  "Hohe Bracht",
+                  "Lennestadt",
+                  "hohe-bracht-lennestadt"
+                ],
+                "value": "Hohe Bracht / Lennestadt"
+              }
+            },
+            {
+              "id": "hohe-lied-schmallenberg",
+              "name": {
+                "synonyms": [
+                  "Hohe Lied",
+                  "Schmallenberg-Gellinghausen",
+                  "hohe-lied-schmallenberg"
+                ],
+                "value": "Hohe Lied / Schmallenberg-Gellinghausen"
               }
             },
             {
@@ -4589,6 +4805,17 @@
               }
             },
             {
+              "id": "kirchberglift-oberweissbach",
+              "name": {
+                "synonyms": [
+                  "Kirchberglift",
+                  "Oberweißbach",
+                  "kirchberglift-oberweissbach"
+                ],
+                "value": "Kirchberglift / Oberweißbach"
+              }
+            },
+            {
               "id": "kirchdorf-in-tirol",
               "name": {
                 "synonyms": [
@@ -4832,6 +5059,17 @@
               }
             },
             {
+              "id": "kraimoos-bernau",
+              "name": {
+                "synonyms": [
+                  "Kraimoos",
+                  "Bernau am Chiemsee",
+                  "kraimoos-bernau"
+                ],
+                "value": "Kraimoos - Bernau am Chiemsee"
+              }
+            },
+            {
               "id": "krakau-tockneralmlift",
               "name": {
                 "synonyms": [
@@ -4872,6 +5110,17 @@
               }
             },
             {
+              "id": "kreithlift-ski-leutasch",
+              "name": {
+                "synonyms": [
+                  "Kreithlift",
+                  "Skileutasch",
+                  "kreithlift-ski-leutasch"
+                ],
+                "value": "Kreithlift - Skileutasch"
+              }
+            },
+            {
               "id": "kreuth-hirschberglifte",
               "name": {
                 "synonyms": [
@@ -4899,6 +5148,17 @@
                   "kreuzberg-bischofsheim"
                 ],
                 "value": "Kreuzberg - Bischofsheim"
+              }
+            },
+            {
+              "id": "kreuzweg-neuenweg",
+              "name": {
+                "synonyms": [
+                  "Kreuzweg",
+                  "Neuenweg",
+                  "kreuzweg-neuenweg"
+                ],
+                "value": "Kreuzweg - Neuenweg"
               }
             },
             {
@@ -5027,6 +5287,17 @@
               }
             },
             {
+              "id": "la-punt-muesella",
+              "name": {
+                "synonyms": [
+                  "La Punt",
+                  "Müsella",
+                  "la-punt-muesella"
+                ],
+                "value": "La Punt - Müsella"
+              }
+            },
+            {
               "id": "la-robella",
               "name": {
                 "synonyms": [
@@ -5139,6 +5410,16 @@
               }
             },
             {
+              "id": "langenau-tettau",
+              "name": {
+                "synonyms": [
+                  "Langenau",
+                  "langenau-tettau"
+                ],
+                "value": "Langenau - Tettau"
+              }
+            },
+            {
               "id": "langenbruck",
               "name": {
                 "value": "Langenbruck"
@@ -5151,6 +5432,17 @@
                   "langis-glaubenberg"
                 ],
                 "value": "Langis Glaubenberg"
+              }
+            },
+            {
+              "id": "languard-pontresina",
+              "name": {
+                "synonyms": [
+                  "Languard",
+                  "Pontresina",
+                  "languard-pontresina"
+                ],
+                "value": "Languard - Pontresina"
               }
             },
             {
@@ -5590,6 +5882,15 @@
                   "Marbachegg"
                 ],
                 "value": "Marbach - Marbachegg"
+              }
+            },
+            {
+              "id": "maria-schmolln",
+              "name": {
+                "synonyms": [
+                  "maria-schmolln"
+                ],
+                "value": "Maria Schmolln"
               }
             },
             {
@@ -6180,9 +6481,9 @@
               "id": "navis",
               "name": {
                 "synonyms": [
-                  "navis"
+                  "Navis"
                 ],
-                "value": "Navis /Wipptal"
+                "value": "Navis - Wipptal"
               }
             },
             {
@@ -6526,10 +6827,10 @@
               "name": {
                 "synonyms": [
                   "Oetz",
-                  "Hochötz",
+                  "Hochoetz",
                   "oetz-hochoetz"
                 ],
-                "value": "Oetz - Hochötz"
+                "value": "Oetz - Hochoetz"
               }
             },
             {
@@ -6546,9 +6847,11 @@
               "id": "ofterschwang-hoernergruppe",
               "name": {
                 "synonyms": [
+                  "Ofterschwang",
+                  "Gunzesried",
                   "ofterschwang-hoernergruppe"
                 ],
-                "value": "Ofterschwang"
+                "value": "Ofterschwang - Gunzesried"
               }
             },
             {
@@ -6597,7 +6900,11 @@
             {
               "id": "ovindoli",
               "name": {
-                "value": "Ovindoli"
+                "synonyms": [
+                  "Ovindoli",
+                  "Monte Magnola"
+                ],
+                "value": "Ovindoli - Monte Magnola"
               }
             },
             {
@@ -6609,18 +6916,22 @@
             {
               "id": "paganella",
               "name": {
-                "value": "Paganella"
+                "synonyms": [
+                  "Paganella",
+                  "Andalo"
+                ],
+                "value": "Paganella - Andalo"
               }
             },
             {
               "id": "panarotta-valsugana",
               "name": {
                 "synonyms": [
-                  "Panarotta",
+                  "Panarotta 2002",
                   "Valsugana",
                   "panarotta-valsugana"
                 ],
-                "value": "Panarotta - Valsugana"
+                "value": "Panarotta 2002 - Valsugana"
               }
             },
             {
@@ -6844,6 +7155,17 @@
                   "pitztalergletscher"
                 ],
                 "value": "Pitztaler Gletscher - Rifflsee / Pitztal"
+              }
+            },
+            {
+              "id": "piz-bohl-strassberg",
+              "name": {
+                "synonyms": [
+                  "Piz Bohl",
+                  "Strassberg",
+                  "piz-bohl-strassberg"
+                ],
+                "value": "Piz Bohl - Strassberg"
               }
             },
             {
@@ -7264,6 +7586,17 @@
               }
             },
             {
+              "id": "rhein-weser-lift-oberhundem",
+              "name": {
+                "synonyms": [
+                  "Rhein-Weser-Lift",
+                  "Oberhundem",
+                  "rhein-weser-lift-oberhundem"
+                ],
+                "value": "Rhein-Weser-Lift / Oberhundem"
+              }
+            },
+            {
               "id": "rieder-weiher-dollnstein",
               "name": {
                 "synonyms": [
@@ -7331,6 +7664,16 @@
               "id": "rigi",
               "name": {
                 "value": "Rigi"
+              }
+            },
+            {
+              "id": "rimberg-schmallenberg",
+              "name": {
+                "synonyms": [
+                  "Rimberg",
+                  "rimberg-schmallenberg"
+                ],
+                "value": "Rimberg / Schmallenberg"
               }
             },
             {
@@ -7641,6 +7984,12 @@
               }
             },
             {
+              "id": "saint-george",
+              "name": {
+                "value": "Saint-George"
+              }
+            },
+            {
               "id": "saint-imier-mont-soleil",
               "name": {
                 "synonyms": [
@@ -7740,6 +8089,17 @@
                   "sanbernardino"
                 ],
                 "value": "Pian Cales / San Bernardino"
+              }
+            },
+            {
+              "id": "sandberg-bopfingen",
+              "name": {
+                "synonyms": [
+                  "Sandberg",
+                  "Bopfingen",
+                  "sandberg-bopfingen"
+                ],
+                "value": "Sandberg - Bopfingen"
               }
             },
             {
@@ -7963,6 +8323,16 @@
               }
             },
             {
+              "id": "schanze-schmallenberg",
+              "name": {
+                "synonyms": [
+                  "Schanze",
+                  "schanze-schmallenberg"
+                ],
+                "value": "Schanze / Schmallenberg"
+              }
+            },
+            {
               "id": "schattwald-zoeblen",
               "name": {
                 "synonyms": [
@@ -8153,9 +8523,11 @@
               "id": "schlick",
               "name": {
                 "synonyms": [
+                  "Skizentrum Schlick 2000",
+                  "Fulpmes",
                   "schlick"
                 ],
-                "value": "Skizentrum Schlick 2000"
+                "value": "Skizentrum Schlick 2000 - Fulpmes"
               }
             },
             {
@@ -8193,10 +8565,18 @@
                 "synonyms": [
                   "Bödefeld",
                   "Hunau",
-                  "Schmallenberg",
                   "schmallenberg-boedefeld-hunau"
                 ],
                 "value": "Bödefeld - Hunau / Schmallenberg"
+              }
+            },
+            {
+              "id": "schmallenberger-hoehenlift",
+              "name": {
+                "synonyms": [
+                  "schmallenberger-hoehenlift"
+                ],
+                "value": "Schmallenberger Höhenlift"
               }
             },
             {
@@ -8469,7 +8849,7 @@
                   "Alpe di Mera",
                   "scopello-alpe-mera"
                 ],
-                "value": "Scopello - Alpe di Mera"
+                "value": "Scopello - Alpe di Mera / Monterosa"
               }
             },
             {
@@ -8546,6 +8926,16 @@
               }
             },
             {
+              "id": "seiffen",
+              "name": {
+                "synonyms": [
+                  "Seiffen",
+                  "Reicheltberg"
+                ],
+                "value": "Seiffen - Reicheltberg"
+              }
+            },
+            {
               "id": "seilbahn-bezau",
               "name": {
                 "synonyms": [
@@ -8573,6 +8963,16 @@
                   "sellaronda-dolomiten"
                 ],
                 "value": "Sellaronda - Dolomiten"
+              }
+            },
+            {
+              "id": "sellinghausen-schmallenberg",
+              "name": {
+                "synonyms": [
+                  "Sellinghausen",
+                  "sellinghausen-schmallenberg"
+                ],
+                "value": "Sellinghausen / Schmallenberg"
               }
             },
             {
@@ -9307,7 +9707,10 @@
             {
               "id": "springenboden",
               "name": {
-                "value": "Springenboden"
+                "synonyms": [
+                  "Springenboden"
+                ],
+                "value": "Springenboden / Diemtigtal"
               }
             },
             {
@@ -9451,6 +9854,17 @@
                   "steirischerseeberg"
                 ],
                 "value": "Seeberg / Seewiesen"
+              }
+            },
+            {
+              "id": "stelzen-lohnsburg",
+              "name": {
+                "synonyms": [
+                  "Stelzen",
+                  "Lohnsburg am Kobernaußerwald",
+                  "stelzen-lohnsburg"
+                ],
+                "value": "Stelzen - Lohnsburg am Kobernaußerwald"
               }
             },
             {
@@ -9676,6 +10090,17 @@
               }
             },
             {
+              "id": "survih-samedan",
+              "name": {
+                "synonyms": [
+                  "Survih",
+                  "Samedan",
+                  "survih-samedan"
+                ],
+                "value": "Survih - Samedan"
+              }
+            },
+            {
               "id": "sv-fischbach",
               "name": {
                 "synonyms": [
@@ -9688,11 +10113,11 @@
               "id": "tabarz-inselberg",
               "name": {
                 "synonyms": [
-                  "Inselberg",
-                  "Tabarz",
+                  "Inselsberg",
+                  "Bad Tabarz",
                   "tabarz-inselberg"
                 ],
-                "value": "Inselberg / Tabarz"
+                "value": "Inselsberg / Bad Tabarz"
               }
             },
             {
@@ -9710,11 +10135,11 @@
               "id": "tarvisio-lussari",
               "name": {
                 "synonyms": [
-                  "Tarvisio",
                   "Monte Lussari",
+                  "Tarvisio",
                   "tarvisio-lussari"
                 ],
-                "value": "Tarvisio / Monte Lussari"
+                "value": "Monte Lussari / Tarvisio"
               }
             },
             {
@@ -9754,11 +10179,19 @@
               }
             },
             {
+              "id": "test",
+              "name": {
+                "synonyms": [
+                  "test"
+                ],
+                "value": "Oberunterberg"
+              }
+            },
+            {
               "id": "tettau",
               "name": {
                 "synonyms": [
-                  "Skilift Tettau",
-                  "tettau"
+                  "Skilift Tettau"
                 ],
                 "value": "Skilift Tettau / Wildberg"
               }
@@ -9850,16 +10283,22 @@
             {
               "id": "toggenburg",
               "name": {
-                "value": "Toggenburg"
+                "synonyms": [
+                  "Toggenburg",
+                  "Wildhaus"
+                ],
+                "value": "Toggenburg - Wildhaus"
               }
             },
             {
               "id": "tonnerhuettenlift",
               "name": {
                 "synonyms": [
+                  "Tonnerhüttenlift",
+                  "Zirbitzkogel",
                   "tonnerhuettenlift"
                 ],
-                "value": "Tonnerhüttenlift"
+                "value": "Tonnerhüttenlift - Zirbitzkogel"
               }
             },
             {
@@ -9898,10 +10337,9 @@
               "id": "trins",
               "name": {
                 "synonyms": [
-                  "Trins",
-                  "Wipptal"
+                  "Trins"
                 ],
-                "value": "Trins / Wipptal"
+                "value": "Trins - Wipptal"
               }
             },
             {
@@ -10174,9 +10612,6 @@
             {
               "id": "verbier",
               "name": {
-                "synonyms": [
-                  "Verbier"
-                ],
                 "value": "Verbier / 4 Vallées"
               }
             },
@@ -10421,9 +10856,10 @@
                 "synonyms": [
                   "Wasserfall",
                   "Bestwig",
+                  "Fort Fun",
                   "wasserfall-bestwig"
                 ],
-                "value": "Wasserfall - Bestwig"
+                "value": "Wasserfall - Bestwig / Fort Fun"
               }
             },
             {
@@ -10471,7 +10907,7 @@
                 "synonyms": [
                   "weisser-stein-eifel"
                 ],
-                "value": "Weisser Stein Eifel"
+                "value": "Weißer Stein Eifel"
               }
             },
             {
@@ -10537,10 +10973,10 @@
               "name": {
                 "synonyms": [
                   "Wildkogel-Arena",
-                  "Neukirchen Bramberg",
+                  "Bramberg",
                   "wildkogel"
                 ],
-                "value": "Wildkogel-Arena - Neukirchen Bramberg"
+                "value": "Wildkogel-Arena / Neukirchen - Bramberg"
               }
             },
             {
@@ -10645,7 +11081,10 @@
             {
               "id": "wiriehorn",
               "name": {
-                "value": "Wiriehorn"
+                "synonyms": [
+                  "Wiriehorn"
+                ],
+                "value": "Wiriehorn / Diemtigtal"
               }
             },
             {
