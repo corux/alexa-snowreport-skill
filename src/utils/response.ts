@@ -16,7 +16,7 @@ export function getReprompt() {
 }
 
 export function transformReport(report: IReport): string {
-  if (!report || (!isNaN(report.lower) && !isNaN(report.upper) && !report.condition)) {
+  if (!report || (isNaN(report.lower) && isNaN(report.upper) && !report.condition)) {
     return null;
   }
 
