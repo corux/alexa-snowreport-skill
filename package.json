@@ -20,7 +20,7 @@
     "deploy:assets": "aws s3 sync ./assets s3://alexa-snowreport-skill/ --acl public-read"
   },
   "devDependencies": {
-    "@corux/ask-extensions": "1.0.0",
+    "@corux/ask-extensions": "2.0.0",
     "@types/cheerio": "0.22.13",
     "@types/jest": "24.0.18",
     "@types/node": "10.14.1",
