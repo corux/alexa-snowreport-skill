@@ -22,11 +22,11 @@
   "devDependencies": {
     "@corux/ask-extensions": "2.0.0",
     "@types/cheerio": "0.22.13",
-    "@types/jest": "24.0.18",
+    "@types/jest": "24.0.19",
     "@types/node": "10.14.1",
     "ask-cli": "1.7.15",
     "ask-sdk-core": "2.7.0",
-    "ask-sdk-model": "1.19.0",
+    "ask-sdk-model": "1.20.0",
     "axios": "0.19.0",
     "cheerio": "1.0.0-rc.3",
     "commander": "3.0.2",
@@ -36,7 +36,7 @@
     "ts-loader": "6.2.0",
     "ts-node": "8.4.1",
     "tslint": "5.20.0",
-    "typescript": "3.6.3",
+    "typescript": "3.6.4",
     "virtual-alexa": "0.7.2"
   }
 }
