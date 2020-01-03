@@ -246,6 +246,15 @@
               }
             },
             {
+              "id": "alpe-devero",
+              "name": {
+                "synonyms": [
+                  "alpe-devero"
+                ],
+                "value": "Alpe Devero"
+              }
+            },
+            {
               "id": "alpe-di-neggia",
               "name": {
                 "synonyms": [
@@ -365,6 +374,17 @@
               }
             },
             {
+              "id": "alte-reite-rosshaupten",
+              "name": {
+                "synonyms": [
+                  "Alte Reite",
+                  "Roßhaupten",
+                  "alte-reite-rosshaupten"
+                ],
+                "value": "Alte Reite - Roßhaupten"
+              }
+            },
+            {
               "id": "altenau",
               "name": {
                 "synonyms": [
@@ -440,6 +460,17 @@
                   "am-gruendelwald"
                 ],
                 "value": "am Gründelwald / Jöhstadt"
+              }
+            },
+            {
+              "id": "am-hainberg-olbernhau",
+              "name": {
+                "synonyms": [
+                  "Am Hainberg",
+                  "Olbernhau",
+                  "am-hainberg-olbernhau"
+                ],
+                "value": "Am Hainberg / Olbernhau"
               }
             },
             {
@@ -817,6 +848,17 @@
               }
             },
             {
+              "id": "barmsee-kruen",
+              "name": {
+                "synonyms": [
+                  "Barmsee",
+                  "Krün",
+                  "barmsee-kruen"
+                ],
+                "value": "Barmsee / Krün"
+              }
+            },
+            {
               "id": "barzio-piani-di-bobbio",
               "name": {
                 "synonyms": [
@@ -1017,6 +1059,17 @@
                   "bewegungszentrum-pfulb"
                 ],
                 "value": "Bewegungszentrum Pfulb"
+              }
+            },
+            {
+              "id": "biancoia-conco",
+              "name": {
+                "synonyms": [
+                  "Biancoia",
+                  "Conco",
+                  "biancoia-conco"
+                ],
+                "value": "Biancoia / Conco"
               }
             },
             {
@@ -1359,6 +1412,15 @@
               }
             },
             {
+              "id": "bruncu-spina",
+              "name": {
+                "synonyms": [
+                  "bruncu-spina"
+                ],
+                "value": "Bruncu Spina"
+              }
+            },
+            {
               "id": "brunni",
               "name": {
                 "synonyms": [
@@ -1671,9 +1733,10 @@
               "name": {
                 "synonyms": [
                   "Champéry",
+                  "Les Crosets",
                   "champery"
                 ],
-                "value": "Champéry / Portes du Soleil"
+                "value": "Champéry - Les Crosets / Portes du Soleil"
               }
             },
             {
@@ -2290,6 +2353,17 @@
                   "Eichfeldlift"
                 ],
                 "value": "Eichfeldlift - Turnau"
+              }
+            },
+            {
+              "id": "eichholzkopf-dietzhoelztal",
+              "name": {
+                "synonyms": [
+                  "Eichholzkopf",
+                  "Dietzhölztal",
+                  "eichholzkopf-dietzhoelztal"
+                ],
+                "value": "Eichholzkopf / Dietzhölztal"
               }
             },
             {
@@ -3045,6 +3119,17 @@
               }
             },
             {
+              "id": "gfellen-entlebuch-finsterwald",
+              "name": {
+                "synonyms": [
+                  "Gfellen",
+                  "Entlebuch-Finsterwald",
+                  "gfellen-entlebuch-finsterwald"
+                ],
+                "value": "Gfellen / Entlebuch-Finsterwald"
+              }
+            },
+            {
               "id": "ghoech",
               "name": {
                 "synonyms": [
@@ -3261,17 +3346,6 @@
               }
             },
             {
-              "id": "grasgehren-riedbergerhorn",
-              "name": {
-                "synonyms": [
-                  "Riedbergerhorn",
-                  "Grasgehren",
-                  "grasgehren-riedbergerhorn"
-                ],
-                "value": "Riedbergerhorn - Grasgehren"
-              }
-            },
-            {
               "id": "grasgehrenlifte-obermaiselstein",
               "name": {
                 "synonyms": [
@@ -3403,15 +3477,6 @@
               }
             },
             {
-              "id": "grossbuechlberg",
-              "name": {
-                "synonyms": [
-                  "grossbuechlberg"
-                ],
-                "value": "Skilift Großbüchlberg bei Mitterteich"
-              }
-            },
-            {
               "id": "grosseck-speiereck",
               "name": {
                 "synonyms": [
@@ -3517,17 +3582,6 @@
               "id": "gstaad",
               "name": {
                 "value": "Gstaad"
-              }
-            },
-            {
-              "id": "gstaad-saanen-rougemont",
-              "name": {
-                "synonyms": [
-                  "Saanen",
-                  "Rougemont",
-                  "gstaad-saanen-rougemont"
-                ],
-                "value": "Gstaad - Saanen - Rougemont"
               }
             },
             {
@@ -4464,9 +4518,10 @@
                 "synonyms": [
                   "Isny",
                   "Felderhalde",
+                  "Max Wild Arena",
                   "isny-felderhalde"
                 ],
-                "value": "Isny - Felderhalde"
+                "value": "Isny - Felderhalde / Max Wild Arena"
               }
             },
             {
@@ -4597,6 +4652,12 @@
                   "junker-st-antoenien"
                 ],
                 "value": "Junker - St. Antönien"
+              }
+            },
+            {
+              "id": "kaberlaba",
+              "name": {
+                "value": "Kaberlaba"
               }
             },
             {
@@ -4788,6 +4849,15 @@
               }
             },
             {
+              "id": "kesselmannlift-faistenau",
+              "name": {
+                "synonyms": [
+                  "kesselmannlift-faistenau"
+                ],
+                "value": "Kesselmannlift Faistenau"
+              }
+            },
+            {
               "id": "kiental",
               "name": {
                 "value": "Kiental"
@@ -4863,7 +4933,7 @@
                   "Kitzsteinhorn",
                   "kitzsteinhorn-kaprun"
                 ],
-                "value": "Kitzsteinhorn - Kaprun"
+                "value": "Kitzsteinhorn / Maiskogel - Kaprun"
               }
             },
             {
@@ -5181,6 +5251,17 @@
                   "krippenstein"
                 ],
                 "value": "Freesports Arena Dachstein Krippenstein / Obertraun"
+              }
+            },
+            {
+              "id": "krispl-gaissau",
+              "name": {
+                "synonyms": [
+                  "Krispl",
+                  "Gaißau",
+                  "krispl-gaissau"
+                ],
+                "value": "Krispl / Gaißau"
               }
             },
             {
@@ -5638,6 +5719,12 @@
               }
             },
             {
+              "id": "lessach",
+              "name": {
+                "value": "Lessach"
+              }
+            },
+            {
               "id": "leukerbad",
               "name": {
                 "synonyms": [
@@ -5828,9 +5915,6 @@
             {
               "id": "maiskogel",
               "name": {
-                "synonyms": [
-                  "Maiskogel"
-                ],
                 "value": "Kaprun - Maiskogel"
               }
             },
@@ -6022,6 +6106,17 @@
               }
             },
             {
+              "id": "melette-2000-gallio",
+              "name": {
+                "synonyms": [
+                  "Melette 2000",
+                  "Gallio",
+                  "melette-2000-gallio"
+                ],
+                "value": "Melette 2000 / Gallio"
+              }
+            },
+            {
               "id": "mellau",
               "name": {
                 "synonyms": [
@@ -6156,7 +6251,7 @@
                   "Hochwechsellifte",
                   "moenichwald"
                 ],
-                "value": "Mönichwald - Hochwechsellifte"
+                "value": "Mönichwald / Hochwechsellifte - Joglland"
               }
             },
             {
@@ -6310,6 +6405,18 @@
               }
             },
             {
+              "id": "monte-verena-2000-asiago",
+              "name": {
+                "synonyms": [
+                  "Monte Verena 2000",
+                  "Roana",
+                  "Asiago",
+                  "monte-verena-2000-asiago"
+                ],
+                "value": "Monte Verena 2000 / Roana - Asiago"
+              }
+            },
+            {
               "id": "monte-voggo-voggenthal",
               "name": {
                 "synonyms": [
@@ -6354,9 +6461,10 @@
               "id": "morgins",
               "name": {
                 "synonyms": [
-                  "Morgins"
+                  "Morgins",
+                  "Champoussin"
                 ],
-                "value": "Morgins / Portes du Soleil"
+                "value": "Morgins - Champoussin / Portes du Soleil"
               }
             },
             {
@@ -6578,6 +6686,17 @@
               "id": "neusell",
               "name": {
                 "value": "Neusell"
+              }
+            },
+            {
+              "id": "neve-2000-monte-spada",
+              "name": {
+                "synonyms": [
+                  "Neve 2000",
+                  "Monte Spada",
+                  "neve-2000-monte-spada"
+                ],
+                "value": "Neve 2000 / Monte Spada"
               }
             },
             {
@@ -7258,6 +7377,12 @@
               }
             },
             {
+              "id": "pradaschier",
+              "name": {
+                "value": "Pradaschier"
+              }
+            },
+            {
               "id": "pradibosco",
               "name": {
                 "synonyms": [
@@ -7913,6 +8038,15 @@
               }
             },
             {
+              "id": "s-arena",
+              "name": {
+                "synonyms": [
+                  "s-arena"
+                ],
+                "value": "S'Arena"
+              }
+            },
+            {
               "id": "saalbach-hinterglemm-leogang",
               "name": {
                 "synonyms": [
@@ -8039,7 +8173,11 @@
             {
               "id": "samnaun",
               "name": {
-                "value": "Samnaun"
+                "synonyms": [
+                  "Silvretta Arena Samnaun",
+                  "samnaun"
+                ],
+                "value": "Silvretta Arena Samnaun / Ischgl"
               }
             },
             {
@@ -8589,6 +8727,12 @@
               }
             },
             {
+              "id": "schmiedhornlift",
+              "name": {
+                "value": "Schmiedhornlift"
+              }
+            },
+            {
               "id": "schmittenhoehe-zellamsee",
               "name": {
                 "synonyms": [
@@ -8628,6 +8772,15 @@
                   "Kurzras"
                 ],
                 "value": "Schnalstal / Kurzras"
+              }
+            },
+            {
+              "id": "schneeberglifte-thiersee",
+              "name": {
+                "synonyms": [
+                  "schneeberglifte-thiersee"
+                ],
+                "value": "Schneeberglifte Thiersee"
               }
             },
             {
@@ -8710,19 +8863,6 @@
                   "schoenfeld-thomatal"
                 ],
                 "value": "Schönfeld - Thomatal"
-              }
-            },
-            {
-              "id": "schoenried-saanenmoeser-zweisimmen-st-stephan",
-              "name": {
-                "synonyms": [
-                  "Schönried",
-                  "Saanenmöser",
-                  "Zweisimmen",
-                  "St. Stephan",
-                  "schoenried-saanenmoeser-zweisimmen-st-stephan"
-                ],
-                "value": "Gstaad - Schönried - Saanenmöser - Zweisimmen - St. Stephan"
               }
             },
             {
@@ -9007,6 +9147,12 @@
               }
             },
             {
+              "id": "separadorgiu",
+              "name": {
+                "value": "Separadorgiu"
+              }
+            },
+            {
               "id": "serfaus-fiss-ladis",
               "name": {
                 "synonyms": [
@@ -9183,7 +9329,7 @@
                 "synonyms": [
                   "skihalle-neuss"
                 ],
-                "value": "Jever Fun Skihalle Neuss"
+                "value": "Skihalle Neuss"
               }
             },
             {
@@ -9300,15 +9446,6 @@
                   "skilift-hittisberg"
                 ],
                 "value": "Skilift Hittisberg"
-              }
-            },
-            {
-              "id": "skilift-jonsdorf",
-              "name": {
-                "synonyms": [
-                  "skilift-jonsdorf"
-                ],
-                "value": "Skilift Jonsdorf"
               }
             },
             {
@@ -10016,7 +10153,10 @@
             {
               "id": "strallegg",
               "name": {
-                "value": "Strallegg"
+                "synonyms": [
+                  "Strallegg"
+                ],
+                "value": "Strallegg - Joglland"
               }
             },
             {
@@ -10179,15 +10319,6 @@
               }
             },
             {
-              "id": "test",
-              "name": {
-                "synonyms": [
-                  "test"
-                ],
-                "value": "Oberunterberg"
-              }
-            },
-            {
               "id": "tettau",
               "name": {
                 "synonyms": [
@@ -10209,17 +10340,6 @@
               "id": "thalgau",
               "name": {
                 "value": "Thalgau"
-              }
-            },
-            {
-              "id": "thiersee-mitterland",
-              "name": {
-                "synonyms": [
-                  "Thiersee",
-                  "Mitterland",
-                  "thiersee-mitterland"
-                ],
-                "value": "Thiersee - Mitterland"
               }
             },
             {
@@ -10284,10 +10404,21 @@
               "id": "toggenburg",
               "name": {
                 "synonyms": [
-                  "Toggenburg",
                   "Wildhaus"
                 ],
-                "value": "Toggenburg - Wildhaus"
+                "value": "Toggenburg / Wildhaus"
+              }
+            },
+            {
+              "id": "toggenburg-chaeserrugg",
+              "name": {
+                "synonyms": [
+                  "Chäserrugg",
+                  "Alt St. Johann",
+                  "Unterwasser",
+                  "toggenburg-chaeserrugg"
+                ],
+                "value": "Toggenburg - Chäserrugg / Alt St. Johann / Unterwasser"
               }
             },
             {
@@ -10502,6 +10633,15 @@
               }
             },
             {
+              "id": "val-formica",
+              "name": {
+                "synonyms": [
+                  "val-formica"
+                ],
+                "value": "Val Formica"
+              }
+            },
+            {
               "id": "val-palot-pisogne",
               "name": {
                 "synonyms": [
@@ -10530,18 +10670,6 @@
                   "Valdidentro"
                 ],
                 "value": "San Colombano - Valdidentro"
-              }
-            },
-            {
-              "id": "valdilliez-lescrosets-champoussin",
-              "name": {
-                "synonyms": [
-                  "Val-d'Illiez",
-                  "Les Crosets",
-                  "Champoussin",
-                  "valdilliez-lescrosets-champoussin"
-                ],
-                "value": "Val-d'Illiez - Les Crosets - Champoussin / Portes du Soleil"
               }
             },
             {
