@@ -24,7 +24,7 @@
     "@types/cheerio": "0.22.18",
     "@types/jest": "25.2.3",
     "@types/node": "10.14.1",
-    "ask-cli": "2.10.1",
+    "ask-cli": "2.10.2",
     "ask-sdk-core": "2.8.0",
     "ask-sdk-model": "1.28.0",
     "axios": "0.19.2",
