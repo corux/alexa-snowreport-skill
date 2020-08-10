@@ -22,9 +22,9 @@
   "devDependencies": {
     "@corux/ask-extensions": "2.0.0",
     "@types/cheerio": "0.22.21",
-    "@types/jest": "26.0.8",
+    "@types/jest": "26.0.9",
     "@types/node": "10.14.1",
-    "ask-cli": "2.13.0",
+    "ask-cli": "2.14.0",
     "ask-sdk-core": "2.9.0",
     "ask-sdk-model": "1.29.0",
     "axios": "0.19.2",
